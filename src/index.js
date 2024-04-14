@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:3000"; // Replace with your API URL
+const apiUrl = "http://localhost:3000";
 
 const homeSection = document.getElementById("home-page");
 
@@ -6,7 +6,7 @@ const otherSections = document.querySelectorAll(".hidden-section");
 
 const navLinks = document.querySelectorAll("nav ul li a");
 
-// Function to show a selected nav section and hide the others
+// Function to show the selected nav section and hide the others
 function showSection(sectionId) {
   homeSection.style.display = "none"; // Hides the home section
   otherSections.forEach((section) => {
@@ -24,7 +24,7 @@ homeSection.style.display = "block";
 //  click event listeners to the navigation links
 navLinks.forEach((link) => {
   link.addEventListener("click", (event) => {
-    event.preventDefault(); // Prevent reloading - the default link behavior
+    event.preventDefault(); // Prevents reloading - the default link behavior
 
     // Get the target section ID from the link's href
     const targetSectionId = event.target.getAttribute("href").slice(1);
