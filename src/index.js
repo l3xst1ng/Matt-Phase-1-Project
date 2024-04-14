@@ -1,17 +1,14 @@
 const apiUrl = "http://localhost:3000"; // Replace with your API URL
 
-// Get the home section
 const homeSection = document.getElementById("home-page");
 
-// Get the other sections
 const otherSections = document.querySelectorAll(".hidden-section");
 
-// Get the navigation links
 const navLinks = document.querySelectorAll("nav ul li a");
 
-// Function to show a specific section and hide the others
+// Function to show a selected nav section and hide the others
 function showSection(sectionId) {
-  homeSection.style.display = "none"; // Hide the home section
+  homeSection.style.display = "none"; // Hides the home section
   otherSections.forEach((section) => {
     if (section.id === sectionId) {
       section.style.display = "block";
@@ -21,13 +18,13 @@ function showSection(sectionId) {
   });
 }
 
-// Show the home section by default
+// Displaying the home section by default
 homeSection.style.display = "block";
 
 //  click event listeners to the navigation links
 navLinks.forEach((link) => {
   link.addEventListener("click", (event) => {
-    event.preventDefault(); // Prevent the default link behavior
+    event.preventDefault(); // Prevent reloading - the default link behavior
 
     // Get the target section ID from the link's href
     const targetSectionId = event.target.getAttribute("href").slice(1);
@@ -37,7 +34,7 @@ navLinks.forEach((link) => {
       homeSection.style.display = "block";
       otherSections.forEach((section) => (section.style.display = "none"));
     } else {
-      // Otherwise, show the target section and hide the others
+      // Otherwise, show the target section and hide the other sections
       showSection(targetSectionId);
     }
 
@@ -63,10 +60,10 @@ function handleCheckIn(event) {
   const isAuthenticated = authenticateStudent(studentId, password);
 
   if (isAuthenticated) {
-    // Hiding the check-in form section
+    // Hides the check-in form section
     document.getElementById("check-in").style.display = "none";
 
-    // Showing the student dashboard section
+    // Displays the student dashboard section
     document.getElementById("student-dashboard").style.display = "block";
 
     // Fetching and displaying the attendance records
@@ -77,9 +74,8 @@ function handleCheckIn(event) {
   }
 }
 
-// Modifying the displayAttendanceRecords function to fetch the attendance records for the authenticated student:
+//function displayAttendanceRecords function to fetch the attendance records for the authenticated student
 function displayAttendanceRecords() {
-  // Fetch attendance records for the authenticated student
   const attendanceRecords = fetchAttendanceRecords();
   const recordsContainer = document.getElementById("attendance-records");
   recordsContainer.innerHTML = "";
@@ -96,7 +92,7 @@ function displayAttendanceRecords() {
   });
 }
 
-// Function to fetch attendance records from the server
+// Function to fetch attendance records from the JSON server
 async function fetchAttendanceRecords(studentId) {
   try {
     const response = await fetch(`${apiUrl}/api/attendance`, {
@@ -158,7 +154,7 @@ function getAttendanceStatus(arrivalTime) {
   }
 }
 
-//  handleCheckIn function
+//  handleCheckIn function to handle check ins
 function handleCheckIn(event) {
   event.preventDefault();
 

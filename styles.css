@@ -5,11 +5,6 @@
   box-sizing: border-box;
 }
 
-body {
-  text-align: center;
-  min-height: 100vh; /* Added to ensure the body takes up the full viewport height */
-}
-
 /* General styles */
 body {
   width: auto;
@@ -19,9 +14,9 @@ body {
 
 body {
   text-align: center;
-  min-height: 100vh; /* Ensure the body takes up the full viewport height */
-  display: flex; /* Add this line */
-  flex-direction: column; /* Add this line */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   width: auto;
   height: auto;
   /* line-height: 1.6; */
@@ -32,7 +27,7 @@ body {
 
 .background-container {
   background-image: url("./Assets/Background1.jpg");
-  min-height: 100vh; /* Adjusted to cover the entire viewport height */
+  min-height: 100vh; /*  to cover the entire viewport height */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -179,8 +174,8 @@ main {
 
 .image {
   flex: 0 0 auto;
-  max-width: 300px; /* Adjust this value to your desired maximum width */
-  margin-right: 20px; /* Add some spacing between the image and content */
+  max-width: 300px;
+  margin-right: 20px; /* spacing between the image and content */
   margin-top: 130px;
 }
 
