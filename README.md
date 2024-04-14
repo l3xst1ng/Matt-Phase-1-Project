@@ -14,6 +14,8 @@ Tardy Spector is a Single Page web-application designed to compliment the proces
 
 ## Live Site
 
+https://l3xst1ng.github.io/Matt-Phase-1-Project/
+
 ## Features
 
 - **Student Check-In**: Students can securely log in and check-in to record their attendance for the day.
@@ -38,7 +40,7 @@ Tardy Spector is a Single Page web-application designed to compliment the proces
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/student-attendance-app.git
+git clone git@github.com:l3xst1ng/Matt-Phase-1-Project.git
 ```
 
 2. Navigate to the project directory:
