@@ -1,0 +1,294 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "studentId": "123456",
+      "email": "john.doe@example.com",
+      "technicalMentorName": "Alice Smith",
+      "laptopSerialNo": "ABC123",
+      "course": "SFTD",
+      "attendanceRecord": []
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "studentId": "654321",
+      "email": "jane.smith@example.com",
+      "technicalMentorName": "Bob Johnson",
+      "laptopSerialNo": "DEF456",
+      "course": "CYSO",
+      "attendanceRecord": []
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "studentId": "789012",
+      "email": "michael.johnson@example.com",
+      "technicalMentorName": "Charlie Brown",
+      "laptopSerialNo": "GHI789",
+      "course": "DEVOPS",
+      "attendanceRecord": []
+    },
+    {
+      "id": 4,
+      "name": "Emily Wilson",
+      "studentId": "345678",
+      "email": "emily.wilson@example.com",
+      "technicalMentorName": "David Lee",
+      "laptopSerialNo": "JKL012",
+      "course": "UI/UX",
+      "attendanceRecord": []
+    },
+    {
+      "id": 5,
+      "name": "Daniel Clark",
+      "studentId": "901234",
+      "email": "daniel.clark@example.com",
+      "technicalMentorName": "Ella Davis",
+      "laptopSerialNo": "MNO345",
+      "course": "SFTD",
+      "attendanceRecord": []
+    },
+    {
+      "id": 6,
+      "name": "Sophia Adams",
+      "studentId": "567890",
+      "email": "sophia.adams@example.com",
+      "technicalMentorName": "Frank Evans",
+      "laptopSerialNo": "PQR678",
+      "course": "CYSO",
+      "attendanceRecord": []
+    },
+    {
+      "id": 7,
+      "name": "William Baker",
+      "studentId": "123789",
+      "email": "william.baker@example.com",
+      "technicalMentorName": "Grace Foster",
+      "laptopSerialNo": "STU901",
+      "course": "DEVOPS",
+      "attendanceRecord": []
+    },
+    {
+      "id": 8,
+      "name": "Olivia Campbell",
+      "studentId": "890123",
+      "email": "olivia.campbell@example.com",
+      "technicalMentorName": "Henry Garcia",
+      "laptopSerialNo": "VWX234",
+      "course": "UI/UX",
+      "attendanceRecord": []
+    },
+    {
+      "id": 9,
+      "name": "James Edwards",
+      "studentId": "456789",
+      "email": "james.edwards@example.com",
+      "technicalMentorName": "Isabella Harris",
+      "laptopSerialNo": "YZA567",
+      "course": "SFTD",
+      "attendanceRecord": []
+    },
+    {
+      "id": 10,
+      "name": "Lily Fisher",
+      "studentId": "234567",
+      "email": "lily.fisher@example.com",
+      "technicalMentorName": "Jack Ingram",
+      "laptopSerialNo": "BCD890",
+      "course": "CYSO",
+      "attendanceRecord": []
+    }
+  ],
+
+  "responseSuccess": {
+    "tokens": [
+      {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTYiLCJpYXQiOjE1MTYyMzkwMjJ9.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "studentId": "123456"
+      },
+      {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTYiLCJpYXQiOjE1MTYyMzkwMjJ9.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5d",
+        "studentId": "654321"
+      },
+      {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTYiLCJpYXQiOjE1MTYyMzkwMjJ9.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5e",
+        "studentId": "789012"
+      },
+      {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTYiLCJpYXQiOjE1MTYyMzkwMjJ9.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5f",
+        "studentId": "345678"
+      },
+      {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTYiLCJpYXQiOjE1MTYyMzkwMjJ9.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5g",
+        "studentId": "901234"
+      },
+      {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTYiLCJpYXQiOjE1MTYyMzkwMjJ9.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5h",
+        "studentId": "567890"
+      },
+      {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTYiLCJpYXQiOjE1MTYyMzkwMjJ9.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5i",
+        "studentId": "123789"
+      },
+      {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTYiLCJpYXQiOjE1MTYyMzkwMjJ9.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5j",
+        "studentId": "890123"
+      },
+      {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTYiLCJpYXQiOjE1MTYyMzkwMjJ9.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5k",
+        "studentId": "456789"
+      },
+      {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTYiLCJpYXQiOjE1MTYyMzkwMjJ9.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5l",
+        "studentId": "234567"
+      }
+    ]
+  },
+
+  "authenticate": {
+    "endpoint": "/api/authenticate",
+    "method": "POST",
+    "requestBody": {
+      "studentId": "123456",
+      "password": "password123"
+    },
+    "responseSuccess": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTYiLCJpYXQiOjE1MTYyMzkwMjJ9.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+    },
+    "responseError": {
+      "error": "Unauthorized"
+    }
+  },
+
+  "attendance": {
+    "endpoint": "/api/attendance",
+    "method": "GET",
+    "requestHeaders": {
+      "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTYiLCJpYXQiOjE1MTYyMzkwMjJ9.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+    },
+    "responseSuccess": {
+      "attendanceRecord": [
+        {
+          "studentId": "123456",
+          "date": "2024-04-12",
+          "arrivalTime": "08:03",
+          "status": "Present"
+        },
+        {
+          "studentId": "654321",
+          "date": "2024-04-12",
+          "arrivalTime": "09:00",
+          "status": "Present"
+        },
+        {
+          "studentId": "789012",
+          "date": "2024-04-12",
+          "arrivalTime": "07:45",
+          "status": "Present"
+        },
+        {
+          "studentId": "345678",
+          "date": "2024-04-12",
+          "arrivalTime": "09:25",
+          "status": "Late"
+        },
+        {
+          "studentId": "901234",
+          "date": "2024-04-12",
+          "arrivalTime": "09:25",
+          "status": "Absent"
+        },
+        {
+          "studentId": "567890",
+          "date": "2024-04-12",
+          "arrivalTime": "09:15",
+          "status": "Late"
+        },
+        {
+          "studentId": "123789",
+          "date": "2024-04-12",
+          "arrivalTime": "06:43",
+          "status": "Present"
+        },
+        {
+          "studentId": "890123",
+          "date": "2024-04-12",
+          "arrivalTime": "08:55",
+          "status": "Present"
+        },
+        {
+          "studentId": "456789",
+          "date": "2024-04-12",
+          "arrivalTime": "09:33",
+          "status": "Late"
+        },
+        {
+          "studentId": "234567",
+          "date": "2024-04-12",
+          "arrivalTime": "08:28",
+          "status": "Present"
+        }
+      ]
+    },
+    "responseError": {
+      "error": "Unauthorized"
+    }
+  },
+
+  "checkin": {
+    "endpoint": "/api/checkin",
+    "method": "POST",
+    "requestBody": [
+      {
+        "studentId": "123456",
+        "date": "2024-04-11T09:10:00"
+      },
+
+      {
+        "studentId": "654321",
+        "date": "2024-04-11T09:00:00"
+      },
+      {
+        "studentId": "789012",
+        "date": "2024-04-11T08:05:00"
+      },
+      {
+        "studentId": "345678",
+        "date": "2024-04-11T07:15:00"
+      },
+      {
+        "studentId": "901234",
+        "date": "2024-04-11T09:50:00"
+      },
+      {
+        "studentId": "567890",
+        "date": "2024-04-11T09:25:00"
+      },
+      {
+        "studentId": "123789",
+        "date": "2024-04-11T06:55:00"
+      },
+      {
+        "studentId": "890123",
+        "date": "2024-04-11T07:15:00"
+      },
+      {
+        "studentId": "459789",
+        "date": "2024-04-11T10:15:00"
+      },
+      {
+        "studentId": "234567",
+        "date": "2024-04-11T06:30:00"
+      }
+    ],
+
+    "responseSuccess": {
+      "message": "Check-in successful"
+    },
+    "responseError": {
+      "error": "Failed to check-in"
+    }
+  }
+}

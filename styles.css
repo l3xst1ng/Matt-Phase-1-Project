@@ -1,0 +1,464 @@
+/* universal styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  min-height: 100vh; /* Added to ensure the body takes up the full viewport height */
+}
+
+/* General styles */
+body {
+  width: auto;
+  height: auto;
+  /* line-height: 1.6; */
+}
+
+body {
+  text-align: center;
+  min-height: 100vh; /* Ensure the body takes up the full viewport height */
+  display: flex; /* Add this line */
+  flex-direction: column; /* Add this line */
+  width: auto;
+  height: auto;
+  /* line-height: 1.6; */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  /* color: #333; */
+}
+
+.background-container {
+  background-image: url("./Assets/Background1.jpg");
+  min-height: 100vh; /* Adjusted to cover the entire viewport height */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-grow: 1;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.content-wwapper {
+  flex-grow: 1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+.login-btn {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: aqua;
+}
+
+/* Main content styles */
+main {
+  padding: 2rem;
+}
+
+#cta {
+  margin-top: 105px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 0%;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: rgb(240, 229, 229);
+  display: flex;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+}
+/* margin: ;
+  padding: ;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300px;
+  font-style: normal;
+  font-size: 3rem;
+} */
+
+.cta-text-1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300px;
+  font-style: normal;
+  font-size: 35px;
+  text-align: justify;
+  margin-bottom: 20px;
+  /* color: rgba(240, 229, 229, 0.9); */
+  color: #cce6f1;
+}
+.cta-text-2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300px;
+  font-style: normal;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #eee0c9;
+}
+.cta-text-3 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500px;
+  font-style: normal;
+  font-size: 33px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #cce6f1;
+}
+
+.explainer {
+  margin-top: 100px;
+  margin-left: 0px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image {
+  flex: 0 0 auto;
+  max-width: 300px; /* Adjust this value to your desired maximum width */
+  margin-right: 20px; /* Add some spacing between the image and content */
+  margin-top: 130px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.explainer-content {
+  flex: 2;
+}
+
+.explainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.explainer h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: rgb(240, 229, 229);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+.explainer h3 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #ff977d;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 26px;
+}
+
+.explainer p {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: #eee0c9;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#about .about-main-header {
+  margin-bottom: 1rem;
+  color: rgb(240, 229, 229);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+  text-align: center;
+  align-items: center;
+}
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: rgb(240, 229, 229);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+#about p {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: #cce6f1;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#about .about-header {
+  color: #ff977d;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+
+/* Attendance policies Style */
+#attendance-policies .main-header {
+  margin-bottom: 1rem;
+  color: rgb(240, 229, 229);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+  text-align: center;
+  align-items: center;
+}
+
+#attendance-policies .sub-header {
+  color: #ff977d;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+.text-image {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#attendance-policies p {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: #cce6f1;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* contact styles */
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: rgb(240, 229, 229);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+#contact p {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: #cce6f1;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+/* Form style */
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #29a383;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+  text-align: center;
+  color: #f1f0e8;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #265073;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.forgot-password a {
+  color: #ecf4d6;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+/* Footer styles */
+/* footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+} */
+
+.content-container {
+  display: none; /* Initially hide all sections */
+}
+
+.content-container.active {
+  display: block; /* Show the active section */
+}
+.hidden-section {
+  display: none;
+}
+
+/* Student Dashboard */
+#student-dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#attendance-table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e6e6e6;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  #student-dashboard {
+    padding: 10px;
+  }
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background: purple;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
